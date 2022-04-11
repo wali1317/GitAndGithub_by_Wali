@@ -1,0 +1,9 @@
+Git.
+-----
+Git is a free and open source distribution version control system designed to handle everything from small to very large
+projects with speed and efficiency. Git is used to tracking changes in the source code, enabling multiple developers to
+work together on a non-linear development. Linus Torvalds created git in 2005 for the development of Linux kernel. One
+of the biggest advantages of git is branching capabilities. Unlike centralized version control systems, Git branches can
+cheap and easy to merge. This facilities the feature branch workflow popular with many Git users. Git is designed
+specially to maintain the integrity of the source code. File contents as well as the relationship between file and
+directories, tags, commits, versions etc. are secured cryptographically.
