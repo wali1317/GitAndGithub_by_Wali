@@ -97,5 +97,11 @@ This can be also done by nano, vi or vim test editor.
     $ git add .
     $ git commit -m "Updated Git.text, GitHub.text, README.md; Added difference.text by difference branch"
     $ git push origin differences
-
+20. New changes were not committed in main branch.
+21. Then feature brunch were merged into main branch by the following command:
+    $ git merge differences
+22. Now all the changes that was made by differences branch are also committed in the main branch.
+23. Then all changes were pushed to the remote:
+    $ git push origin main
+24. Then README.md file was updated
     
