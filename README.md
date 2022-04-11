@@ -21,10 +21,39 @@ This can be also done by nano, vi or vim test editor.
    No commits yet
    
    Untracked files:
-   (use "git add <file>..." to include in what will be committed)
-   Git.text
-   GitHub.text
-   README.md
+      (use "git add <file>..." to include in what will be committed)
+         Git.text
+         GitHub.text
+         README.md
 
    nothing added to commit but untracked files present (use "git add" to track)
-8. 
+8. By the following way the changes were pushed to remote:
+   $ git add .
+   $ git commit -m "Initial save"
+   [main (root-commit) 360a9a0] Initial save
+    3 files changed, 49 insertions(+)
+    create mode 100644 Git.text
+    create mode 100644 GitHub.text
+    create mode 100644 README.md
+   $ git status
+   On branch main
+   Your branch is based on 'origin/main', but the upstream is gone.
+      (use "git branch --unset-upstream" to fixup)
+
+   nothing to commit, working tree clean
+   $ git push origin main
+   Enumerating objects: 5, done.
+   Counting objects: 100% (5/5), done.
+   Delta compression using up to 8 threads
+   Compressing objects: 100% (5/5), done.
+   Writing objects: 100% (5/5), 1.72 KiB | 1.72 MiB/s, done.
+   Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+   To https://github.com/wali1317/GitAndGithub_by_Wali.git
+   * [new branch]      main -> main
+9. A folder "temp" is added in local directory and some files are added to that directory.
+   $ mkdir temp
+   $ cp /d/Personal/Ship* temp/
+   $ cp /c/Users/My\ PC/Videos/Debut/Deb* temp/
+   $ ls temp/
+   'Debut 1.avi'  'Debut 2.avi'  'Debut 3.avi'   Ship1.jpg   Ship2.jpg
+10. 
