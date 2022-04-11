@@ -7,3 +7,14 @@ of the biggest advantages of git is branching capabilities. Unlike centralized v
 cheap and easy to merge. This facilities the feature branch workflow popular with many Git users. Git is designed
 specially to maintain the integrity of the source code. File contents as well as the relationship between file and
 directories, tags, commits, versions etc. are secured cryptographically.
+
+Features of Git.
+---------------
+1. Tracks history.
+2. Free and open source.
+3. Supports non-linear development.
+4. Creates backups.
+5. Scalable.
+6. Supports collaboration.
+7. Branching is easier.
+8. Distributed development.

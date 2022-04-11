@@ -69,3 +69,30 @@ This can be also done by nano, vi or vim test editor.
     $ git add .
     $ git commit -m "Pushed without temp folder"
     $ git push origin main
+14. A feature branch "differences" is added, checked at was set to the current branch as the differences branch:
+    $ git branch differences
+    $ git branch
+    differences
+  * main
+    $ git checkout differences
+15. Git.text and GitHub.text files were updated writing the features of Git and GitHub.
+16. Another file "difference.text" was added along with the writing of the differences between git and GitHub.
+17. Then README.md file updated with git commands, usage and answers.
+18. Changes were observed by the following command:
+    $ git status
+    On branch differences
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git.text
+        modified:   GitHub.text
+        modified:   README.md
+
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+        difference.text
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+19. All changes pushed in differences branch:
+    $ git add .
+    $ git commit -m "Updated Git.text, GitHub.text, README.md; Added difference.text by difference branch"

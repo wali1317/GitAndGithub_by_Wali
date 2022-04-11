@@ -1,10 +1,22 @@
 GitHub.
 --------
- GitHub is one of the most popular resources for developers to share code and work on projects together. It is free,
- easy to use, and has become central in the movement toward open-source software. GitHub is an online software
- development platform used for storing, tracking, and collaborating on software projects. It enables developers to
- upload their own code files and to collaborate with fellow developers on open-source projects. GitHub also serves as
- a social networking site in which developers can openly network, collaborate, and pitch their work. GitHub allows
- software developers and engineers to create remote, public-facing repositories on the cloud for free. Once you’ve set
- up a repository on GitHub, we can copy it to your device, add and modify files locally, then “push” your changes back
- to the repository where our changes are displayed to the public.
+GitHub is one of the most popular resources for developers to share code and work on projects together. It is free,
+easy to use, and has become central in the movement toward open-source software. GitHub is an online software
+development platform used for storing, tracking, and collaborating on software projects. It enables developers to
+upload their own code files and to collaborate with fellow developers on open-source projects. GitHub also serves as
+a social networking site in which developers can openly network, collaborate, and pitch their work. GitHub allows
+software developers and engineers to create remote, public-facing repositories on the cloud for free. Once you’ve set
+up a repository on GitHub, we can copy it to your device, add and modify files locally, then “push” your changes back
+to the repository where our changes are displayed to the public.
+
+Features of GitHub.
+-------------------
+1. Collaboration
+2. Integrated issue and bug tracking
+3. Graphical representation of branches
+4. Git repositories hosting
+5. Project management
+6. Team management
+7. Code hosting
+8. Track and assign tasks
+9. Conversations
