@@ -96,3 +96,4 @@ This can be also done by nano, vi or vim test editor.
 19. All changes pushed in differences branch:
     $ git add .
     $ git commit -m "Updated Git.text, GitHub.text, README.md; Added difference.text by difference branch"
+    $ git checkout main
