@@ -93,7 +93,9 @@ This can be also done by nano, vi or vim test editor.
         difference.text
 
     no changes added to commit (use "git add" and/or "git commit -a")
-19. All changes pushed in differences branch:
+19. All changes pushed by differences branch :
     $ git add .
     $ git commit -m "Updated Git.text, GitHub.text, README.md; Added difference.text by difference branch"
-    $ git checkout main
+    $ git push origin differences
+
+    
