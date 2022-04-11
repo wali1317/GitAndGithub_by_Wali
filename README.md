@@ -28,6 +28,7 @@ This can be also done by nano, vi or vim test editor.
 
    nothing added to commit but untracked files present (use "git add" to track)
 8. By the following way the changes were pushed to remote:
+   
    $ git add .
    $ git commit -m "Initial save"
    [main (root-commit) 360a9a0] Initial save
@@ -51,9 +52,20 @@ This can be also done by nano, vi or vim test editor.
    To https://github.com/wali1317/GitAndGithub_by_Wali.git
    * [new branch]      main -> main
 9. A folder "temp" is added in local directory and some files are added to that directory.
-   $ mkdir temp
-   $ cp /d/Personal/Ship* temp/
-   $ cp /c/Users/My\ PC/Videos/Debut/Deb* temp/
-   $ ls temp/
-   'Debut 1.avi'  'Debut 2.avi'  'Debut 3.avi'   Ship1.jpg   Ship2.jpg
-10. 
+    $ mkdir temp
+    $ cp /d/Personal/Ship* temp/
+    $ cp /c/Users/My\ PC/Videos/Debut/Deb* temp/
+    $ ls temp/
+    'Debut 1.avi'  'Debut 2.avi'  'Debut 3.avi'   Ship1.jpg   Ship2.jpg
+10. A local file .gitignore added to local.
+11. In the local file, temp folder was declared so that the folder do not store in repository:
+    $ echo "temp" > .gitignore
+12. Local changes was observed by following command, where no changes were found in regard of temp folder:
+    $ git status
+    modified:   README.md
+    Untracked files:
+    .gitignore
+13. Again pushed all changes to remote. Where temp folder were not being uploaded:
+    $ git add .
+    $ git commit -m "Pushed without temp folder"
+    $ git push origin main
