@@ -104,4 +104,38 @@ This can be also done by nano, vi or vim test editor.
 23. Then all changes were pushed to the remote:
     $ git push origin main
 24. Then README.md file was updated
-    
+25. One contributor was invited named Rashid1501 and given the "differences" clone link
+    https://github.com/wali1317/GitAndGithub_by_Wali.git.
+    After moving into "https://github.com/wali1317/GitAndGithub_by_Wali.git" link, contributor have clicked 
+    "Fork" and choose his account to be forked.
+    Now, he could see GitAndGithub_by_wali repository in his (Rashid15011) GitHub. Then he cloned the repo for 
+    "differences" branch through following command:
+    $ git clone --single-branch --branch differences https://github.com/Rashid1501/GitAndGithub_by_Wali.git
+    When he entered in the clonned directory, found himself in "differences" branch. It was also confirmed that
+    no other branch is available except "differences" by the following command:
+    $ git branch
+    * differences
+26. Then the contributor made chabges in Git.text and GitHub.text with the follwing line
+    "These lines are updated by Rashid1501".
+27. Now some lines are added and removed in Git.text file in "main" branch.  
+    $ nano Git.text
+    $ git add .
+    $ git commit -m "Updated Git.text for conflicting check"
+    [main 10ca834] Updated Git.text for conflicting check
+    1 file changed, 3 insertions(+), 2 deletions(-)
+    $ git push origin main
+28. My contributor "Rashid1501" made some changes and pulled the request to me. From that pull request I did 
+    found no conflict with "differences" branch. So, I merged it.
+29. In the the "wali1317/GitAndGithub_by_Wali" window I created a pool request. There I declared main as basic 
+    branch and compared with "differences" branch.
+30. There I found one conflict. It was telling can't automatically merge.
+31. Conflict was solved in the following way:
+    Clicked create pull request. I corrected the lines of the document and clicked Mark as resolved. And finally
+    committed the merge. Now it shows everything is OK.
+32. Then the README.md file was updated.
+33. Pushed the changes by
+    $ git add README.md
+    S git commit -m "Final Update"
+    S git push origin main
+34. Change found correct in remote directory.
+   
